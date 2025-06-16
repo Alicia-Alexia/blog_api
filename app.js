@@ -1,6 +1,7 @@
     const express = require('express');
     const mongoose = require('mongoose');
     const postsRoutes = require('./routes/posts');
+    
     const URL = process.env.URL
 
     const app = express();
